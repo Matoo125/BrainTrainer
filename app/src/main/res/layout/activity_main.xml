@@ -41,11 +41,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:gravity="center"
             android:id="@+id/equation"
             android:text="@string/example_equation"
             android:textSize="30sp"
             android:padding="10sp"
+            android:layout_toRightOf="@+id/time"
+            android:layout_toLeftOf="@+id/points"
             />
 
         <TextView
